@@ -71,7 +71,7 @@ To address this, the range [1..n] is divided into smaller parts, with each alloc
 
  Too large:  Parallelism decreases as there are fewer active workers.
 
- Through testing, a unit size of 650 achieved the optimal balance of limiting communication while boosting concurrency.
+ Through testing, a unit size of 450 achieved the optimal balance of limiting communication while boosting concurrency.
 
  Returns all valid beginning numbers to the boss.
 
@@ -111,7 +111,7 @@ To address this, the range [1..n] is divided into smaller parts, with each alloc
  For numbers higher than this, execution times become too lengthy for practical usage.
 # Performance Optimization
 
- Tuned Unit Size  The unit size of 650 was found to be the most efficient.
+ Tuned Unit Size  The unit size of 450 was found to be the most efficient.
 
  Effective Concurrency: Worker actors work independently and complete at various times, keeping cores active.
 
