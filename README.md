@@ -8,7 +8,7 @@
 - **Venkata sai Tarun Reddy Chittela**  
   - UFID: 44530897
 
-# Github ()
+# Github (https://github.com/harsha-2003/dosp-project1.git)
 
   Project Description:
 This project demonstrates how to utilize Gleam's actor model to split out and process a computing job in parallel. The specific topic addressed is determining all starting integers for consecutive square sequences of length k whose total sum is a perfect square.
