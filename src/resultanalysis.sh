@@ -35,9 +35,6 @@ rt=$(to_seconds "$real")
 ut=$(to_seconds "$user")
 st=$(to_seconds "$sys")
 
-OFFSET1=$((1*4)) # 2 minutes
-
-st=$(awk -v t="$(to_seconds "$sys")" 'BEGIN{print t+0.35}')
 
 
 cpu=$(awk -v u="$ut" -v s="$st" 'BEGIN{print u+s}')
